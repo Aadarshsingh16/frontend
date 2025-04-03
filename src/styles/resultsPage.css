@@ -1,0 +1,90 @@
+/* Results Page */
+.results-page {
+    height: 100vh; /* Full page height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 20px;
+    border-radius: 25px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden; /* Prevents unwanted overflow */
+}
+
+/* Title Box */
+.title-box {
+    background: white;
+    color: #6a11cb;
+    padding: 15px 70px; /* Slightly wider */
+    border-radius: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    width: 50%; /* Wider for better display */
+    text-align: center;
+    position: absolute;
+    top: 10px; /* Moves higher */
+}
+
+
+
+/* Back Button */
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.back-button:hover {
+    transform: scale(1.1);
+    color: #f0f0f0;
+}
+
+/* Video Player Container */
+.video-container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 70%;
+    max-width: 800px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 60px; /* Prevent overlap */
+}
+
+
+/* Video Player */
+.video-player {
+    width: 70%;
+    border-radius: 15px;
+}
+
+/* Time Span Box - Positioned Below Video */
+.timespan-container {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 15px;  /* Adjusted spacing */
+}
+
+/* Alert Box */
+.alert-container {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 15px;
+}

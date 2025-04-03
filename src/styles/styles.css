@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Upload Form */
+.upload-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.upload-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.upload-container button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Results */
+.results-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result-item {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* CCTV Player */
+.cctv-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+video {
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Alert Box */
+.alert {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.alert.success {
+    background-color: #28a745;
+    color: white;
+}
+
+.alert.error {
+    background-color: #dc3545;
+    color: white;
+}
